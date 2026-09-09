@@ -1,18 +1,5 @@
-# Simple Interest Calculator
+# Travel Recommendation Web Application
 
-A simple Bash script that calculates simple interest based on the principal amount, rate of interest, and time period.
+Features: Home, About Us, Contact Us, search bar, Search/Clear buttons, beach recommendations, temple recommendations, and country recommendations.
 
-## Purpose
-
-This project provides a simple command-line calculator for calculating simple interest.
-
-## Formula
-
-Simple Interest = (Principal × Rate × Time) / 100
-
-## How to Use
-
-Run the script using:
-
-```bash
-./simple-interest.sh
+For GitHub Pages: upload all files to the public repository, then enable Settings > Pages > Deploy from a branch > main > / (root).

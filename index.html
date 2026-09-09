@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar"><a class="logo" href="index.html">✈ Travel Recommendation</a>
+        <div class="nav-links"><a class="active" href="index.html">Home</a><a href="about.html">About Us</a><a
+                href="contact.html">Contact Us</a></div>
+        <div class="search-box"><input id="searchInput" placeholder="Search beach, temple, country..."><button
+                id="searchBtn">Search</button><button id="clearBtn" class="clear-btn">Clear</button></div>
+    </nav>
+    <header class="hero">
+        <div class="hero-content">
+            <p class="eyebrow">DISCOVER • EXPLORE • EXPERIENCE</p>
+            <h1>Find Your Next<br><span>Dream Destination</span></h1>
+            <p>Explore beautiful beaches, historic temples, and amazing countries with our simple travel recommendation
+                guide.</p><a class="hero-btn" href="#recommendations">Explore Recommendations</a>
+        </div>
+    </header>
+    <main>
+        <section class="intro">
+            <p class="eyebrow">WELCOME TO OUR TRAVEL GUIDE</p>
+            <h2>Travel made simple</h2>
+            <p>Search for a destination type and discover hand-picked places to add to your travel plans.</p>
+        </section>
+        <section id="recommendations" class="results-section">
+            <div id="resultsHeader" class="results-header"></div>
+            <div id="results" class="cards"></div>
+        </section>
+    </main>
+    <footer>© 2026 Travel Recommendation • Explore more, worry less.</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
